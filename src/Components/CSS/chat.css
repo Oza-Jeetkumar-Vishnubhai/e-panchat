@@ -1,0 +1,62 @@
+.chat-box{
+    background-color: blue;
+    height:93vh;
+    overflow-y: auto;
+}
+.send{
+    display: flex;
+    padding: 3px 5px;
+}
+.send textarea{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+}
+.send button{
+    height: 36px;
+    width: 50px;
+}
+#send{
+    font-size: 16px;
+    position: relative;
+    bottom:0;
+}
+#attachment{
+    font-size: 20px
+}
+.msg{
+    background-color: gray;
+    border:2px solid black;
+    clear:both;
+    text-align: center;
+    display: block;
+    padding: 3px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.chat{
+    background-color: chartreuse;
+    /* display: inline-block; */
+    padding: 3px 25px;
+    margin: 5px 0;
+    border-radius: 20px;
+    font-size: 20px;
+    overflow-wrap: anywhere;
+}
+.center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display:inline-block;
+    float: right;
+    clear:both;
+    max-width:40%;
+}
+.left{
+    float:left;
+    display:inline-block;
+    clear:both;
+    max-width:40%;
+}
